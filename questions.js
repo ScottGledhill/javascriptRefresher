@@ -1,17 +1,32 @@
-var selectElementsStartingWithA = function(array) {
-  return 'Write your method here';
-}
 
 var selectElementsStartingWithA = function(array) {
-  return 'Write your method here';
+  var shitArray = [];
+  array.map(function(element) {
+    if (element[0] === 'a') {
+      shitArray.push(element);
+    }
+  });
+  return shitArray;
 }
 
 var selectElementsStartingWithVowel = function(array) {
-  return 'Write your method here';
+  var shitArray = [];
+  array.map(function(element) {
+    if (element[0] === 'a' || element[0] === 'o' || element[0] === 'i' || element[0] === 'e' || element[0] === 'u') {
+      shitArray.push(element);
+    }
+  });
+  return shitArray;
 }
 
 var removeNullElements = function(array) {
-  return 'Write your method here';
+  var shitArray = [];
+  array.map(function(element) {
+    if (element != null) {
+      shitArray.push(element);
+    }
+  });
+  return shitArray;
 }
 
 var removeNullAndFalseElements = function(array) {
