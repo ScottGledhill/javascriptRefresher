@@ -40,8 +40,12 @@ return noobArray;
 };
 
 var reverseWordsInArray = function(array) {
-  return 'Write your method here';
-}
+  var noobArray = [];
+   for (var i = 0; i < array.length; i++) {
+     noobArray.push(array[i].split('').reverse().join(''));
+   }
+   return noobArray;
+};
 
 var everyPossiblePair = function(array) {
   return 'Write your method here';
