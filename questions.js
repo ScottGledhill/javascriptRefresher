@@ -1,37 +1,43 @@
 
 var selectElementsStartingWithA = function(array) {
-  var shitArray = [];
+  var noobArray = [];
   array.map(function(element) {
     if (element[0] === 'a') {
-      shitArray.push(element);
+      noobArray.push(element);
     }
   });
-  return shitArray;
-}
+  return noobArray;
+};
 
 var selectElementsStartingWithVowel = function(array) {
-  var shitArray = [];
+  var noobArray = [];
   array.map(function(element) {
     if (element[0] === 'a' || element[0] === 'o' || element[0] === 'i' || element[0] === 'e' || element[0] === 'u') {
-      shitArray.push(element);
+      noobArray.push(element);
     }
   });
-  return shitArray;
-}
+  return noobArray;
+};
 
 var removeNullElements = function(array) {
-  var shitArray = [];
+  var noobArray = [];
   array.map(function(element) {
-    if (element != null) {
-      shitArray.push(element);
+    if (element !== null) {
+      noobArray.push(element);
     }
   });
-  return shitArray;
-}
+  return noobArray;
+};
 
 var removeNullAndFalseElements = function(array) {
-  return 'Write your method here';
-}
+  var noobArray = [];
+  array.map(function(element) {
+    if (element !== null && element !== false) {
+      noobArray.push(element);
+    }
+  });
+return noobArray;
+};
 
 var reverseWordsInArray = function(array) {
   return 'Write your method here';
